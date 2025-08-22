@@ -22,18 +22,7 @@ async function checkweather(city) {
     document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
     document.querySelector(".wind").innerHTML = data.wind.speed + "km/hr";
 
-    // if (data.weather[0].main === "Clouds") {
-    //     weathericn.src = "clouds.png";
-    // } else if (data.weather[0].main === "Clear") {
-    //     weathericn.src = "clear.png";  // Fix typo: "clears.png" -> "clear.png"
-    // } else if (data.weather[0].main === "Rain") {
-    //     weathericn.src = "rain.png";
-    // } else if (data.weather[0].main === "Drizzle") {
-    //     weathericn.src = "drizzle.png";
-    // } else if (data.weather[0].main === "Mist") {
-    //     weathericn.src = "";
-    // }
-
+   
     document.querySelector(".weather").style.display = "block";
 }
 
@@ -44,4 +33,5 @@ searchbox.addEventListener("keydown",function(event){
     if(event.key==="enter"){
         searchbtn.click();
     }
+
 });     
