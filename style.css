@@ -70,11 +70,7 @@
     transform: scale(1.1);
   }
   
-  /* Weather Info */
-  .weather-icon {
-    width: 90px;
-    margin: 15px auto;
-  }
+
   
   .weather h1 {
     font-size: 42px;
@@ -153,4 +149,5 @@
     position: relative;
     z-index: 1; /* place it above overlay */
   }
+
     
