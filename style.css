@@ -21,7 +21,7 @@
   /* Weather Card */
   .card {
     width: 90%;
-    max-width: 360px;
+    max-width: 361px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 1rem;
     padding: 20px 25px;
@@ -151,3 +151,4 @@
   }
 
     
+
